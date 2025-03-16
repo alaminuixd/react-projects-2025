@@ -1,12 +1,13 @@
 import React from "react";
-import Counter from "./components/counter/Counter";
 import "./index.css";
-import Todos from "./components/todos/Todos";
+import Meals from "./components/meals/Meals";
+// import Counter from "./components/counter/Counter";
+// import Todos from "./components/todos/Todos";
 
 function App() {
   return (
     <div>
-      <Todos />
+      <Meals />
     </div>
   );
 }

@@ -6,8 +6,8 @@
 
 body {
   background: #242424;
-  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
 }
