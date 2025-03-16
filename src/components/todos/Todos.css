@@ -1,0 +1,50 @@
+.container {
+  background: #fcfff3;
+  padding: 50px;
+}
+
+input {
+  padding: 15px;
+  border: none;
+  outline: none;
+  background: #dce1d0;
+  width: 300px;
+  margin-right: 10px;
+}
+
+button {
+  background-color: #358065;
+  padding: 5px;
+  outline: none;
+  border: none;
+  color: #fff;
+  padding: 1rem 2rem;
+  cursor: pointer;
+}
+input,
+button {
+  border-radius: 0.2rem;
+}
+
+.todos-list {
+  margin-top: 3rem;
+}
+
+.todo {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f5f9eb;
+  color: #313131;
+  padding: 7px 20px;
+  margin: 10px;
+  font-family: sans-serif;
+}
+.todo-not-found {
+  color: #222;
+}
+
+.close {
+  cursor: pointer;
+}
