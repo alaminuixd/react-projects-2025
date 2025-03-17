@@ -1,6 +1,7 @@
 import React from "react";
 import "./index.css";
-import ToggleBackgroundColor from "./components/toggle-background/ToggleBackgroundColor";
+import HiddenSearchBar from "./components/hidden-search-bar/HiddenSearchBar";
+// import ToggleBackgroundColor from "./components/toggle-background/ToggleBackgroundColor";
 // import Calculator from "./components/calculator/Calculator";
 // import Meals from "./components/meals/Meals";
 // import Counter from "./components/counter/Counter";
@@ -9,7 +10,7 @@ import ToggleBackgroundColor from "./components/toggle-background/ToggleBackgrou
 function App() {
   return (
     <div>
-      <ToggleBackgroundColor />
+      <HiddenSearchBar />
     </div>
   );
 }
