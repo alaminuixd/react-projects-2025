@@ -1,0 +1,7 @@
+.home-container {
+  width: 100%;
+  max-width: 750px;
+  margin: auto;
+  padding: 20px 40px;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+}

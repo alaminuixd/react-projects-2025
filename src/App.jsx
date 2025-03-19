@@ -7,12 +7,13 @@ import React from "react";
 // import Meals from "./components/meals/Meals";
 // import Counter from "./components/counter/Counter";
 // import Todos from "./components/todos/Todos";
-import Testimonials from "./components/testamonails/testimonials";
+// import Testimonials from "./components/testamonails/testimonials";
+import Accordions from "./components/accordion/Accordions";
 
 function App() {
   return (
     <div>
-      <Testimonials />
+      <Accordions />
     </div>
   );
 }
