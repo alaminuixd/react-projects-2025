@@ -8,12 +8,15 @@ import React from "react";
 // import Counter from "./components/counter/Counter";
 // import Todos from "./components/todos/Todos";
 // import Testimonials from "./components/testamonails/testimonials";
-import Accordions from "./components/accordion/Accordions";
+// import Accordions from "./components/zaccord/Accordions";
+// import FormMain from "./components/form-validation/FormMain";
+// import MyFormData from "./components/validate-form/MyFormData";
+import MainForm from "./components/validate-form/MainForm";
 
 function App() {
   return (
     <div>
-      <Accordions />
+      <MainForm />
     </div>
   );
 }
